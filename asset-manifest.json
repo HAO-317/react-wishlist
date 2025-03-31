@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-wishlist/static/css/main.9cc0442d.css",
+    "main.js": "/react-wishlist/static/js/main.cac49be9.js",
+    "static/js/453.e9e9d979.chunk.js": "/react-wishlist/static/js/453.e9e9d979.chunk.js",
+    "static/media/Christmas.jpg": "/react-wishlist/static/media/Christmas.4ae0261c0b25906dbcc4.jpg",
+    "index.html": "/react-wishlist/index.html",
+    "main.9cc0442d.css.map": "/react-wishlist/static/css/main.9cc0442d.css.map",
+    "main.cac49be9.js.map": "/react-wishlist/static/js/main.cac49be9.js.map",
+    "453.e9e9d979.chunk.js.map": "/react-wishlist/static/js/453.e9e9d979.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cc0442d.css",
+    "static/js/main.cac49be9.js"
+  ]
+}
