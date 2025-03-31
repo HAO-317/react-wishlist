@@ -1,0 +1,103 @@
+html {
+  padding: 15%;
+  background-image: url(/public/Christmas.jpg);
+  background-position: center;
+  background-size:initial;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 50px;
+  background-color: rgba(132, 132, 132, 0.74);
+  border-radius: 25px;
+  border: 3px dotted rgb(0, 189, 22);
+  animation: borderAnimation 1s infinite alternate;
+}
+@keyframes borderAnimation {
+  0% {
+    border: 5px dotted rgb(0, 189, 22); 
+  }
+  100% {
+    border: 5px dotted red; 
+  }
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+}
+
+h1 {
+  text-align: center;
+
+  animation: Animation 2s infinite alternate;
+}
+@keyframes Animation {
+  0% {
+    text-shadow: 2px 2px 8px tomato;; 
+  }
+  100% {
+    text-shadow: 2px 2px 8px rgb(71, 255, 74);; 
+  }
+}
+
+
+.add-wish {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-wish input,
+.add-wish select {
+  padding: 8px;
+  font-size: 16px;
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.636);
+  border-radius: 120px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  color: white;
+
+}
+
+.add-wish button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.wish-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.6));
+}
+
+.wish-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.743),
+  1px 1px 2px rgba(0, 0, 255, 0.761);
+}
+
+.wish-item button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 20px;
+}
